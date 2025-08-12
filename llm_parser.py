@@ -4,8 +4,6 @@ import json
 
 timeout = httpx.Timeout(60.0, connect=10.0)  # 60 seconds total timeout, 10s connect
 
-
-
 AIPIPE_TOKEN = os.getenv("AIPIPE_TOKEN")
 API_URL = "https://aipipe.org/openrouter/v1/chat/completions"
 MODEL_NAME = "openai/gpt-4.1"
